@@ -2,4 +2,4 @@
 def boxify(s): return len(s)*"+---"+"+\n"+'| '+' | '.join(list(s))+" |\n"+len(s)*"+---"+'+'
 
 if __name__ == '__main__':
-    print(boxify('Stupendous!'))
+    print(boxify('Boxify'))
